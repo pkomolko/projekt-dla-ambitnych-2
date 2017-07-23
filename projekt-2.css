@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Cookie');
 
 body{
 	font-family: "Lato";
@@ -12,10 +13,6 @@ body{
 	margin: 0 auto;
 }
 
-div{
-	border:1px solid red;
-}
-
 /*header*/
 
 .blue {
@@ -24,9 +21,11 @@ div{
     height: 100vh;
     padding-top: 32vh;
 }
+
 .blue-header{
 	background-color: rgba(25, 39, 76, 0.9);
 }
+
 .blue-header .white-box{
 	color: white;
 	font-weight: 300;
@@ -35,16 +34,19 @@ div{
 nav {
 	text-transform: uppercase;
 }
+
  nav li a{
  	font-size: 10px;
  }
+
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
-	background-color: rgba(25, 39, 76, 1rgba(25, 39, 76, 0.9););
+	background-color: rgba(25, 39, 76, 0.9););
 }
 
 .nav-border{
-	border-bottom: 3px solid grey;
+	border-bottom: 2px solid grey;
 }
+
 .navbar-nav{
 	float: right;
 }
@@ -110,75 +112,194 @@ nav {
 	text-transform: uppercase;
 	margin-bottom: 2px;
 }
+
 .image:hover .hover{
 	display: block;
 	position: absolute;
 }
+
 .image {
 	height: 200px;
 	border: 1px solid white;
-}
-.image-1{
-	background-image: url(https://static.pexels.com/photos/478149/pexels-photo-478149.jpeg);
 	background-size: cover;
 	background-position: center;
 	overflow: hidden;
+}
+.image-1{
+	background-image: url(https://static.pexels.com/photos/478149/pexels-photo-478149.jpeg);
 }
 
 .image-2{
 	background-image: url(https://static.pexels.com/photos/511853/pexels-photo-511853.jpeg);
-	background-size: cover;
-	background-position: center;
-	overflow: hidden;
 }
 
 .image-3{
 	background-image: url(https://static.pexels.com/photos/477877/pexels-photo-477877.jpeg);
-	background-size: cover;
-	background-position: center;
-	overflow: hidden;
 }
 
 .image-4{
 	background-image: url(https://static.pexels.com/photos/481980/pexels-photo-481980.jpeg);
-	background-size: cover;
-	background-position: center;
-	overflow: hidden;
 }
 
 .image-5{
 	background-image: url(https://images.pexels.com/photos/478617/pexels-photo-478617.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
-	background-size: cover;
-	background-position: center;
-	overflow: hidden;
 }
 
 .image-6{
 	background-image: url(https://static.pexels.com/photos/478509/pexels-photo-478509.jpeg);
-	background-size: cover;
-	background-position: center;
-	overflow: hidden;
 }
 
 .image-7{
 	background-image: url(https://static.pexels.com/photos/502098/pexels-photo-502098.jpeg);
-	background-size: cover;
-	background-position: center;
-	overflow: hidden;
 }
 
 .image-8{
 	background-image: url(https://static.pexels.com/photos/416380/pexels-photo-416380.jpeg);
+}
+
+/*employers*/
+.employer{
+	text-align: center;
+}
+
+.employer-picture {
+	margin: auto;
+	margin-top: 25px;
+	width: 150px;
+	height: 150px;
 	background-size: cover;
 	background-position: center;
 	overflow: hidden;
 }
 
+.employer-1{
+	background-image: url(https://static.pexels.com/photos/38554/girl-people-landscape-sun-38554.jpeg);
+}
+
+.employer-2{
+	background-image: url(https://static.pexels.com/photos/193355/pexels-photo-193355.jpeg);
+}
+
+.employer-3{
+	background-image: url(https://static.pexels.com/photos/428339/pexels-photo-428339.jpeg);
+}
+
+.employer-4{
+	background-image: url(https://static.pexels.com/photos/492954/pexels-photo-492954.jpeg);
+}
+
+.employer h5{
+	text-transform: uppercase;
+	color: red;
+}
+
+.employer button{
+	background-color: white;
+	border:1px solid grey;
+	margin-bottom: 20px;
+}
+.employer button:hover{
+	background-color: grey;
+	color: white;
+}
+
+/*image-caorusel*/
+.image-9{
+	height: 474px;
+	background-image: url(https://static.pexels.com/photos/271721/pexels-photo-271721.jpeg);
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+
+.col-lg-6-carousel{
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.carousel-caption{
+	top: 20%;
+	left: 20%;
+}
+
+.item{
+	height: 474px;
+	color: white;
+	margin-left:-20px;
+}
+
+.item p{
+	font-family: "Cookie'";
+	font-style: italic;
+	font-size: 30px;
+	text-align: left;
+}
+
+.item h3{
+	text-transform: uppercase;
+	font-size: 10px;
+	text-align: left;
+
+}
 
 
+.item-1{
+	background-color: #C14242;
+}
 
+.item-2{
+	background-color: #BF3F7F;
+}
 
+.item-3{
+	background-color: #602A97;
+}
 
+.item-4{
+	background-color: #345c9b;
+}
+
+.item-5{
+	background-color: #105E88;
+}
+
+/*promo*/
+.promo{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.promo h3{
+	font-weight: 300;
+}
+
+.promo h4{
+	font-size: 13px;
+	margin-bottom: 25px;
+}
+.promo button{
+	font-size: 10px;
+}
+
+/*footer*/
+footer {
+	background-color: rgba(25, 39, 76, 0.9);
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+footer h4{
+	text-transform: uppercase;
+}
+
+footer button{
+	border: 1px solid white;
+	background-color: rgba(25, 39, 76, 0.0); 
+}
+
+footer .fa-heart{
+	color: red;
+	font-size: 10px;
+}
 
 
 
