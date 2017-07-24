@@ -63,17 +63,25 @@ nav {
 	background-position: center;
 	overflow: hidden;
 	color: white;
+	padding-top: 50px;
+
+}
+
+.jumbotron .container{
+	max-width: 960px;
 }
 
 .jumbotron h1{
 	margin: 0;
-	font-size: 38px;
+	font-size: 52px;
 	font-weight: 500;
 	padding-bottom: 30px;
 }
 
 .jumbotron button{
 	margin-top: 30px;
+	font-size: 15px;
+	border-radius: 2px;
 	font-size: 15px;
 }
 
@@ -82,7 +90,7 @@ nav {
 .icon-section i {
 	color: #E7310D;
 	font-size: 40px;
-	padding: 15px;
+	padding-top: 45px;
 }
 
 .icon-section h3{
@@ -93,7 +101,7 @@ nav {
 .icon-section p{ 
 	font-size: 14px;
 	font-weight: 300;
-	padding-bottom: 15px;
+	padding-bottom: 45px;
 }
 
 /*gallery*/
@@ -111,6 +119,10 @@ nav {
 .hover h4{
 	text-transform: uppercase;
 	margin-bottom: 2px;
+	font-size: 12px;
+}
+.hover p{
+	font-size: 10px;
 }
 
 .image:hover .hover{
@@ -126,66 +138,70 @@ nav {
 	overflow: hidden;
 }
 .image-1{
-	background-image: url(https://static.pexels.com/photos/478149/pexels-photo-478149.jpeg);
+	background-image: url(http://oi66.tinypic.com/2cxaww.jpg);
 }
 
 .image-2{
-	background-image: url(https://static.pexels.com/photos/511853/pexels-photo-511853.jpeg);
+	background-image: url(http://oi65.tinypic.com/2rztmvs.jpg);
 }
 
 .image-3{
-	background-image: url(https://static.pexels.com/photos/477877/pexels-photo-477877.jpeg);
+	background-image: url(http://oi64.tinypic.com/33xfqq8.jpg);
 }
 
 .image-4{
-	background-image: url(https://static.pexels.com/photos/481980/pexels-photo-481980.jpeg);
+	background-image: url(http://oi64.tinypic.com/4u6stx.jpg);
 }
 
 .image-5{
-	background-image: url(https://images.pexels.com/photos/478617/pexels-photo-478617.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+	background-image: url(http://oi66.tinypic.com/16hsv0g.jpg);
 }
 
 .image-6{
-	background-image: url(https://static.pexels.com/photos/478509/pexels-photo-478509.jpeg);
+	background-image: url(http://oi68.tinypic.com/2uqeio5.jpg);
 }
 
 .image-7{
-	background-image: url(https://static.pexels.com/photos/502098/pexels-photo-502098.jpeg);
+	background-image: url(http://oi65.tinypic.com/20uu5hx.jpg);
 }
 
 .image-8{
-	background-image: url(https://static.pexels.com/photos/416380/pexels-photo-416380.jpeg);
+	background-image: url(http://oi68.tinypic.com/28qqc0i.jpg);
 }
 
 /*employers*/
 .employer{
-	text-align: center;
+	text-align: left;
 }
 
 .employer-picture {
 	margin: auto;
-	margin-top: 25px;
-	width: 150px;
-	height: 150px;
+	margin-top: 60px;
+	width: 200px;
+	height: 200px;
 	background-size: cover;
 	background-position: center;
 	overflow: hidden;
 }
 
 .employer-1{
-	background-image: url(https://static.pexels.com/photos/38554/girl-people-landscape-sun-38554.jpeg);
+	background-image: url(http://oi66.tinypic.com/34obx4n.jpg);
 }
 
 .employer-2{
-	background-image: url(https://static.pexels.com/photos/193355/pexels-photo-193355.jpeg);
+	background-image: url(http://oi65.tinypic.com/vg1zth.jpg);
 }
 
 .employer-3{
-	background-image: url(https://static.pexels.com/photos/428339/pexels-photo-428339.jpeg);
+	background-image: url(http://oi68.tinypic.com/dc8p48.jpg);
 }
 
 .employer-4{
-	background-image: url(https://static.pexels.com/photos/492954/pexels-photo-492954.jpeg);
+	background-image: url(http://oi64.tinypic.com/347vfj7.jpg);
+}
+
+.employer h4{
+	font-size: 20px;
 }
 
 .employer h5{
@@ -196,7 +212,9 @@ nav {
 .employer button{
 	background-color: white;
 	border:1px solid grey;
-	margin-bottom: 20px;
+	margin-bottom: 60px;
+	font-size: 15px;
+	width: 28px;
 }
 .employer button:hover{
 	background-color: grey;
@@ -206,10 +224,15 @@ nav {
 /*image-caorusel*/
 .image-9{
 	height: 474px;
-	background-image: url(https://static.pexels.com/photos/271721/pexels-photo-271721.jpeg);
+	background-image: url(http://oi66.tinypic.com/29prsyg.jpg);
 	background-size: cover;
 	background-position: center;
 	overflow: hidden;
+}
+
+.image-caorusel .carousel-control .glyphicon-chevron-right, .image-caorusel .carousel-control .icon-next,
+.image-caorusel .carousel-control .glyphicon-chevron-left, .image-caorusel .carousel-control .icon-previous {
+	display: none;
 }
 
 .col-lg-6-carousel{
@@ -265,8 +288,8 @@ nav {
 
 /*promo*/
 .promo{
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
 .promo h3{
 	font-weight: 300;
@@ -274,6 +297,7 @@ nav {
 
 .promo h4{
 	font-size: 13px;
+	font-weight: 700;
 	margin-bottom: 25px;
 }
 .promo button{
@@ -285,22 +309,41 @@ footer {
 	background-color: rgba(25, 39, 76, 0.9);
 	color: white;
 	text-align: center;
-	padding: 20px;
+	padding-top: 20px;
 }
 footer h4{
 	text-transform: uppercase;
+	font-size: 15px;
+}
+footer p{
+	font-size: 13px;
+	color: grey;
 }
 
 footer button{
 	border: 1px solid white;
 	background-color: rgba(25, 39, 76, 0.0); 
+	font-size: 12px;
+	width:24px 
+}
+
+footer button:hover{
+	color: rgb(25, 39, 76);
+	background-color: white; 
 }
 
 footer .fa-heart{
 	color: red;
 	font-size: 10px;
 }
-
+ footer .end {
+	background-color: #0c2651;
+	max-width: 100%;
+}
+footer .end p{
+	font-size: 12px;
+	color: white;
+}
 
 
 
